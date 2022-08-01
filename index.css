@@ -1,6 +1,6 @@
 body{
-    background: radial-gradient(rgb(150, 3, 150), rgb(61, 1, 61), black)
-    
+    background: rgb(54,125,177);
+background: linear-gradient(0deg, rgba(54,125,177,1) 0%, rgba(254,152,3,1) 50%, rgba(143,3,6,1) 100%);
 }
 
 .navbar{
@@ -8,7 +8,6 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 nav a{
@@ -17,18 +16,91 @@ nav a{
     font-weight: 900;
     color: white;
     letter-spacing: 0.1em;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
-
-    
 .pochoclean{
     width: 80px;
-    border-radius: 30px;
+    border-radius: 100px;
 }
 
 nav a:hover{
     color: fuchsia;
     transition: 0.5s;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-bhavi{
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    gap: 80px;
+}
+
+.pochoclos{
+    width: 25%;
+    border-radius: 40px;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+.pochoclito{
+    color: yellow;
+}
+
+.feats{
+    color: blue;
+}
+
+.spotify{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 20px;
+    color: lime;
+    background-color: black;
+    border-style: none;
+    width: 100%;
+}
+
+.yt{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    border-style: none;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white
+
+
+}
+.parrafo{
+    width: 45%;
+  
 }
