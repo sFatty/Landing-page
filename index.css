@@ -1,6 +1,6 @@
 body{
-    background: rgb(54,125,177);
-background: linear-gradient(0deg, rgba(54,125,177,1) 0%, rgba(254,152,3,1) 50%, rgba(143,3,6,1) 100%);
+    background: rgb(255,158,35);
+background: linear-gradient(152deg, rgba(255,158,35,1) 0%, rgba(148,58,255,1) 49%, rgba(255,0,0,1) 100%);
 }
 
 .navbar{
@@ -25,7 +25,7 @@ nav a{
 }
 
 nav a:hover{
-    color: fuchsia;
+    color: black;
     transition: 0.5s;
 }
 
@@ -100,10 +100,121 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     color: white
-
-
 }
 .parrafo{
     width: 45%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 80px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.cards p{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.containerdisc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.discografia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discografia img{
+    border-radius: 10%;
+    width: 60%;
+}
+
+.discografia p{
+    width: 50%;
+    font-family: cursive;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.containerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.containerfooter h1{
+    color: white;
+    text-decoration: underline wavy;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer h3{
+    text-decoration: underline double;
+    color: white;
+}
+
   
+.contacto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: yellow;
+}
+  
+.contacto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: yellow;
+}
+
+.bhavi{
+    display: flex;
+    width: 25%;
+    border-radius: 50px;
+    margin-left: 200px;
+}
+
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    color: rgb(168, 168, 168);
+}
+
+.fin img{
+    width: 10%;
+    border-radius: 50%;
 }
